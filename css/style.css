@@ -1,0 +1,151 @@
+
+@media (max-width: 480px) {
+    .formfield  {
+      flex-direction:column;
+    }
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EDF0F7;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.center-container {
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 650px;
+}
+
+nav {
+    background-color: #FFFFFF;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    border-bottom: 2px solid #1A202C;
+}
+
+nav a {
+    color: #717D96;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 50px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+ .formfield {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+input {
+    font-size: 1rem;
+    
+}
+
+label {
+    font-weight: bold;
+    color: #023047;
+}
+
+input[type=text] {
+    padding: 10px;
+    width: 450px; 
+    border: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #e1e5f2;
+}
+
+input[type=date] {
+    padding: 10px;
+    width: 450px;
+    border: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #e1e5f2;
+}
+
+select {
+    padding: 10px;
+    width: 450px;
+    border: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #e1e5f2;
+}
+
+#container-formbuttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 150px;
+}
+
+.bottom-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#question {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea {
+    height: 130px;
+    border: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #e1e5f2;
+}
+
+button {
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: #023047;
+    color: white;
+    cursor: pointer;
+  }
+
+  p {
+    margin: 0;
+  }
